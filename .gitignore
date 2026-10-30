@@ -39,3 +39,12 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# GroupSync backend
+groupsync/backend/.venv/
+groupsync/backend/.env
+groupsync/backend/*.db
+groupsync/backend/uploads/*
+!groupsync/backend/uploads/.gitkeep
+__pycache__/
+.pytest_cache/
